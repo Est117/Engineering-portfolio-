@@ -1,1 +1,79 @@
-test
+# =====================
+# OS / System Files
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================
+# Editor / IDE Files
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# Python (if used)
+# =====================
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# =====================
+# MATLAB
+# =====================
+*.asv
+*.m~
+*.slxc
+
+# =====================
+# CAD / Engineering Software
+# =====================
+# SolidWorks backup & temp files
+*.sldbak
+*.sldtmp
+~$*.sld*
+
+# Fusion 360 cache
+.fusioncache/
+
+# AutoCAD temp files
+*.ac$
+*.bak
+*.sv$
+
+# =====================
+# Simulation / Analysis
+# =====================
+*.log
+*.out
+*.tmp
+
+# ANSYS / FEA
+*.rst
+*.rth
+*.db
+*.err
+*.esav
+
+# =====================
+# Build / Export Artifacts
+# (keep final PDFs & images, ignore raw builds)
+# =====================
+build/
+dist/
+
+# =====================
+# Large / Generated Files
+# =====================
+*.zip
+*.rar
+*.7z
+
+# =====================
+# Local notes (optional)
+# =====================
+notes_private.md
